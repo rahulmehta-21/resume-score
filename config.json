@@ -1,0 +1,32 @@
+{
+    "departments": {
+        "engineering": {
+            "roles": {
+                "software_engineer": {
+                    "experience_weight": 0.6,
+                    "skills_weight": 0.4,
+                    "required_skills": ["Python", "Java", "C++"]
+                },
+                "data_scientist": {
+                    "experience_weight": 0.5,
+                    "skills_weight": 0.5,
+                    "required_skills": ["Python", "R", "Machine Learning"]
+                }
+            }
+        },
+        "marketing": {
+            "roles": {
+                "seo_specialist": {
+                    "experience_weight": 0.4,
+                    "skills_weight": 0.6,
+                    "required_skills": ["SEO", "Google Analytics", "Content Marketing"]
+                },
+                "social_media_manager": {
+                    "experience_weight": 0.3,
+                    "skills_weight": 0.7,
+                    "required_skills": ["Social Media", "Content Creation", "Brand Management"]
+                }
+            }
+        }
+    }
+}
