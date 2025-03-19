@@ -1,5 +1,5 @@
 import nltk
-import fitz  # PyMuPDF for PDF processing
+# import fitz  # PyMuPDF for PDF processing
 from ats import ATS  # Import the ATS class
 import concurrent.futures
 import logging

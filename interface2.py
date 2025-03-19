@@ -33,7 +33,7 @@ def extract_name_email(text):
 def remove_duplicates(resume_files):
     """Ensures only one resume per candidate is kept, preferring PDFs."""
     unique_candidates = {}
-    filtered_files = []
+    # filtered_files = []
     
     for resume in resume_files:
         text = extract_text_from_pdf(resume) if resume.type == "application/pdf" else extract_text_from_docx(resume)
