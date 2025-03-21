@@ -12,8 +12,8 @@ def extract_text_from_pdf(file):
         with fitz.open(stream=file.getvalue(), filetype="pdf") as doc:
             for page in doc:
                 text += page.get_text()
-    except fitz.EmptyFileError:
-        st.error(f"Error: {file.name} is an empty or invalid PDF.")
+    except (ValueError, fitz.FileDataError):
+        print("Error: The PDF file is empty or corrupted.")
     return text
 
 def extract_text_from_docx(file):
