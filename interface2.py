@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-#import fitz  # PyMuPDF
+import fitz  # PyMuPDF
 import docx
 import os
 import re
